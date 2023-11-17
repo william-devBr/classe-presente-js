@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presente de Grego</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+        #presentes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #presentes img {
+            margin: 5px;
+            cursor:pointer;
+        }
+        #presentes img {
+            animation: fadein 0.5s;
+        }
+        #presentes strong {
+            text-transform: uppercase ;
+        }
+        @keyframes fadein {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Abra seu presente</h2>
+    <div id="presentes"></div>
+    <script src="app.js"></script>
+</body> 
+</html>
